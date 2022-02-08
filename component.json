@@ -1,0 +1,17 @@
+{
+  "title": "Influx Connector",
+  "description": "Influx Connector",
+  "docsUrl": "",
+  "buildType": "docker",
+  "credentials": {
+    "fields": {}
+  },
+  "triggers": {
+    "getData": {
+      "title": "Fetch new data",
+      "main": "./lib/triggers/getData.js"
+    }
+  },
+  "actions": {
+  }
+}
